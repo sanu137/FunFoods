@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Fun Foods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #008080;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: black;
+        }
+        .nav-link {
+            color: black !important;
+        }
+         .content {
+        padding: 40px 20px;
+        background-color: white;
+        margin: 20px auto;
+        border-radius: 10px;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+        color: #008080;
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        font-size: 17px;
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-bottom: 8px;
+        border-left: 5px solid #008080;
+        transition: background-color 0.3s ease;
+    }
+
+    ul li:hover {
+        background-color: #e0f7fa;
+    }
+
+    ul li strong {
+        color: #008080;
+    }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fun Foods - Admin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.jsp">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.jsp">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.jsp">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.jsp">Orders</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content mt-4">
+    <h3>Restaurant Rules and Regulations</h3>
+    <p>
+        Welcome to Fun Foods! To maintain a high standard of service and ensure a positive dining experience for both our customers and staff, we have established the following rules and regulations:
+    </p>
+    <ul>
+        <li><strong>Cleanliness and Hygiene:</strong> All employees must adhere to strict personal hygiene standards. Workstations, dining areas, and restrooms must be cleaned and sanitized regularly to prevent contamination.</li>
+        <li><strong>Customer Service Excellence:</strong> Treat every customer with respect and courtesy. Promptly address their needs, feedback, or complaints. Customer satisfaction is our priority.</li>
+        <li><strong>Food Safety and Handling:</strong> Proper food storage, preparation, and handling practices must be followed at all times. Ensure all food items meet safety and quality standards.</li>
+        <li><strong>Workplace Conduct:</strong> Employees are expected to maintain professionalism, punctuality, and teamwork. Disrespect, harassment, or any form of misconduct will not be tolerated.</li>
+        <li><strong>Ordering and Billing:</strong> Ensure all orders are entered accurately into the system. Customers should receive clear, accurate bills, and payments can be made through digital or cash methods.</li>
+        <li><strong>Employee Uniform:</strong> All staff must wear clean uniforms and appropriate safety gear such as gloves and hairnets during shifts. Appearance must be neat at all times.</li>
+        <li><strong>Workplace Safety:</strong> Adhere to safety guidelines to prevent accidents. Report any hazards immediately, and ensure the use of appropriate equipment for kitchen and service tasks.</li>
+        <li><strong>Allergen Awareness:</strong> Clearly identify and label any potential allergens in food items. Employees should be well-informed to assist customers with dietary restrictions or allergies.</li>
+        <li><strong>Time Management:</strong> Staff should respect their scheduled shifts and break times. Punctuality is critical to ensuring smooth service and reducing wait times for customers.</li>
+        <li><strong>Waste Reduction:</strong> Actively engage in reducing food and material waste. Implement recycling practices and proper disposal of non-recyclable materials to minimize environmental impact.</li>
+        <li><strong>Reservation and Table Management:</strong> Ensure that reservations are handled efficiently. Tables should be cleaned and prepared for the next customer immediately after use.</li>
+        <li><strong>Alcohol and Age Restrictions:</strong> If alcohol is served, proper identification must be checked for customers of legal drinking age. Alcohol should not be served to minors.</li>
+        <li><strong>Fire Safety:</strong> Fire exits must always be accessible. Employees should be trained in using fire extinguishers and follow fire safety protocols.</li>
+        <li><strong>Smoking Policy:</strong> Smoking is prohibited inside the restaurant premises. Designated smoking areas should be clearly marked outside.</li>
+        <li><strong>Mobile Devices:</strong> Employees should not use mobile phones during work hours unless necessary for work purposes. Customer-facing staff should focus on providing uninterrupted service.</li>
+        <li><strong>Confidentiality:</strong> Customer information, including payment details, must be handled with confidentiality and should not be shared with unauthorized personnel.</li>
+        <li><strong>Discounts and Promotions:</strong> Any promotions or discounts offered must be applied correctly. Staff should inform customers about ongoing deals and loyalty programs.</li>
+    </ul>
+</div>
+    
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
