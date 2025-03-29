@@ -45,3 +45,26 @@ efficient data management and retrieval for order processing.
 4. Server:
 ○ Apache Tomcat: Hosts the web application, handling requests and
 ensuring smooth communication between the front end and back end.
+
+
+DESIGN AND IMPLEMENTATION
+
+1.Customer
+a. Register: using SignupServlet.java and signup.jsp.
+b. Login: using SigninServlet.java and signin.jsp.
+c. Menu: Welcome.jsp, menu.jsp, OrderServlet.java and AddFoodsServlet.java to display foods in cart functionality.
+d. Cart: cart.jsp, cart.css, RemoveCartItemServlet.java helps Display and manipulate all the food items in the cart items.
+e. Checkout: Checkout.jsp Shows the bill to the user and payment options.
+f. Place Order: PlaceOredrServlet.java finally places order in the database.
+
+2. Admin
+a. Admin.html: Shows the admin homepage with rules and regulations for employees.
+b. customer.jsp: Displays details of all the registered customers. To be able to manipulate details of all customers.
+c. cart.jsp: Displays the current cart cart of all the orders. A form to insert or delete from the cart.
+d. menu.jsp: Displays all the foods from the menu to be able to manipulate
+e. orders.jsp: Displays list of all orders in a day with order number. to be able to manipulate orders.
+
+
+ 
+
+
